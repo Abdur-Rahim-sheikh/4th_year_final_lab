@@ -7,10 +7,10 @@ class keyExchange{
         return ans;
     }
     public static void main(String[] args) {
-        System.out.println("abir");
+        System.out.println("Mursalin");
         int primitive_root = 2,prime = 13;
         int xa,xb,ya,yb;
-        xa = 25000;
+        xa = 25070;
         xb = 302;
         ya = power(primitive_root,xa,prime);
         yb = power(primitive_root,xb,prime);
